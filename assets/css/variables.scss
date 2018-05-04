@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import "mixins/_gradients.scss";
+
+// Variables
+
+// Colors
+$se-primary: #00ABBB;
+$se-primary-bg: #FFFFFF;
+$se-sub-bg: #F8F9F9;
+$se-font-color: #3F4A56;
+$se-error: #F8495E;
+$se-correct: #88D068;
+$se-warning: #F5A517;
+$se-gray-dark: #333333;
+$se-gray-lighter: #D8D8D8;
+
+// Input
+$se-input-text-color: #999999;
+$se-input-border-color: #DDDDDD;
+$se-input-border-dark: #CCCCCC;
+
+// Tip
+$se-tip-text-color: #999999;
+
+// nav
+$se-nav-selected-color: #036E82;
+
+// selected a text
+$se-a-selected-color: #036E82;
+
+// Table
+$se-table-head-bg: #D1F0E9;
+$se-table-tr-hover-bg: #EAFAF6;
+$se-table-td-border: #EEEEEE;
+
+// Dropdown
+$se-dropdown-hover-bg: #EAFAF6;
+
+// Button
+$se-btn-default-text-color: #FFFFFF;
+$se-btn-disabled-color: #DDDDDD;
+$se-btn-default-border: #CCCCCC;
+$se-btn-default-color: #999999;
+
+// Line
+$se-line-color: #EEEEEE;
+$se-line-border: #CCCCCC;
+
+//created by zhuhui  --start
+//Base Colors
+// $se-base: #00ABB8;
+// $se-link-base: #036E82;
+// $se-table-bg-base: #D1F0E9;
+// $se-table-bg-link-base: #EAFAF6;
+// $se-font-color-base: #3F4A56;
+// $se-font-color-lighten-base: #999999;
+// $se-border-color-base: #DDDDDD;
+// $se-divider-color-base: #EEEEEE;
+// $se-parts-bg-base: #F8F9F9;
+// $se-error-base: #F8495E;
+// $se-succes-base: #88D068;
+
+//Font
+$se-font-size-base: 14px;
+$se-font-size-large: floor(($se-font-size-base * 1.14)); //~16px
+$se-font-size-larger: ceil(($se-font-size-base * 1.7)); // ~24px
+$se-font-size-small: ceil(($se-font-size-base * 0.85)); // ~12px
+
+//line-height
+$se-line-height-base: 1.428571429;
+$se-line-height-large: 1.5;
+$se-line-height-small: 1.33;
+
+//padding
+$se-padding-base-vertical: 5px;
+$se-padding-base-horizontal: 20px;
+
+$se-padding-large-vertical: 10px;
+$se-padding-large-horizontal: 30px;
+
+$se-padding-small-vertical: 3px;
+$se-padding-small-horizontal: 15px;
+
+$se-padding-xs-vertical: 1px;
+$se-padding-xs-horizontal: 8px;
+
+//border-radius
+$se-border-radius-base: 4px;
+$se-border-radius-large: 6px;
+$se-border-radius-small: 3px;
+
+//z-index
+$se-zindex-navbar: 1000;
+$se-zindex-dropdown: 1000;
+$se-zindex-tooltip: 1070;
+$se-zindex-navbar-fixed: 1030;
+$se-zindex-modal: 1040;
+//created by zhuhui --end

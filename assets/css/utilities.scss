@@ -1,0 +1,95 @@
+@charset "utf-8";
+@import "../core/variables.scss";
+
+@font-face {
+  font-family: 'PingFang-Normal';
+  src: url("../fonts/pingfangheiti-normal-simple.ttf");
+}
+@font-face {
+  font-family: 'PingFang-Light';
+  src: url("../fonts/pingfangheiti-thin-simple.ttf");
+}
+@font-face {
+  font-family: 'PingFang-Medium';
+  src: url("../fonts/pingfangheiti-thick-simple.ttf");
+}
+
+/*init browser css*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-family: PingFang-Light, MicrosoftYaHei, Tahoma, Arial, sans-serif;
+  color: $se-gray-dark;
+  background-color: $se-primary-bg;
+  font-size: 14px;
+}
+
+
+/*body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,table,td,th,img,div{margin:0;padding:0;border:0;}*/
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+a:link {
+  color: $se-primary;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $se-primary;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.lightblue {
+  color: $se-primary;
+}
+
+select,
+input,
+img,
+select {
+  vertical-align: middle;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.clearit {
+  clear: both;
+}
+
+.all-wrapper,
+.bcse-header {
+  min-width: 960px;
+}
+
+.text-tip {
+  color: $se-tip-text-color;
+  font-size: 12px;
+}
+
+.line {
+  padding-left: 2px;
+  padding-right: 2px;
+  border-left: solid 1px $se-line-border;
+}
+
+.red {
+  color: $se-error;
+}
